@@ -407,7 +407,7 @@ header .icons a{
     height: 10px;
     background-color: #f5f5f5;
 }
-@media screen and (max-width:340px){
+@media screen and (max-width:380px){
     body{
         overflow: hidden;
         height: 100%;
@@ -581,4 +581,4 @@ border-top-left-radius:0 ;
     font-size: 1.2em;
     border-radius: 50%;
     cursor: pointer;
-}
+    }
