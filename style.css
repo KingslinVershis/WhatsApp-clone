@@ -419,7 +419,7 @@ header .icons a{
         top: 0;
         left: 0;
         width: 360px;
-        height: 100%;
+        height: auto;
         overflow: hidden;
     }
     .container .data{
@@ -435,6 +435,7 @@ header .icons a{
         position: relative;
         width: calc(360px *4);
         display: flex;
+        height:;
     }
     .container .box{
         position: relative;
@@ -454,7 +455,7 @@ header .icons a{
         left: calc(360px * -3);   
     }
     .mesinpu{
-     margin-bottom: -150px;   
+     margin-bottom: -130px;   
     }
 }
 
