@@ -343,7 +343,7 @@ header .icons a{
 
 .penn{
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
     right: 15px;
     z-index: 100;
     transition: 0.3s;
@@ -604,7 +604,8 @@ border-top-left-radius:0 ;
         overflow: hidden;
     }
     .container .data{
-        height: 630px;
+        height: 620px;
+        overflow-y: visible;
     }
     .tabs{
         width: 360px;
@@ -636,10 +637,19 @@ border-top-left-radius:0 ;
         left: calc(360px * -3);   
     }
     .mesinpu{
-     margin-bottom: -125px;   
+     margin-bottom: -128px;   
     }
     .mesinpu .inpu{
         margin-left: 10px;   
-       }
+    }
+      .quick{
+        bottom: 40px;
+    }
+    .penn{
+        bottom:40px;
+    }
+    .tabs input:nth-child(3):checked ~ .penn{
+        bottom: 110px;
+    }
 }
 
