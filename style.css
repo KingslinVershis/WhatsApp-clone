@@ -312,7 +312,7 @@ header .icons a{
 }
 .quick{
     position: absolute;
-    bottom: 17px;
+    bottom: 23px;
     right: 10px;
     z-index: 100;
 }
@@ -343,7 +343,7 @@ header .icons a{
 
 .penn{
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     right: 15px;
     z-index: 100;
     transition: 0.3s;
