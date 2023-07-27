@@ -6,6 +6,9 @@ const sea=document.getElementById('sea');
 let back=document.querySelector('.back');
 let chatbox=document.querySelector('.chatbox');
 let open=document.querySelector('.open');
+const opt=document.querySelector('.option');
+const view=document.querySelector('#eli');
+const hide=document.querySelector('.content');
 
 
 const vsr=com.addEventListener('click',function(){
@@ -34,4 +37,11 @@ open.addEventListener('click',function(){
 back.addEventListener('click',function(){
     chatbox.classList.add('hide');
     chatbox.style.display='none';
+});
+
+view.addEventListener('click',function(){
+    opt.style.display='block';
+})
+hide.addEventListener('click',function(){
+    opt.style.display='none';
 });
